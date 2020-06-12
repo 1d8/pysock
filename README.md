@@ -1,5 +1,7 @@
 # Pysock 
-## "Reverse Shell" in Python 3
+## "Reverse Shell" in Python 3 (For Educational Purposes)
+
+## Use the code.py for linux machines, use win_shell.py for Windows machines
 
 ## Used modules:
 
