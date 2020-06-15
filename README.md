@@ -93,7 +93,7 @@ The keywords to use are: *sql* or *SQL*
 
 ### NOTE: IF YOU ENTER A CMD INCORRECTLY OR A CMD THAT DOESN'T EXIST, THE ERROR WILL APPEAR IN THE VICTIM'S TERMINAL, EX:
 
-We enter clear which isn't a cmd in Windows, our shell skips a line & returns nothing:
+We enter *clear* which isn't a cmd in Windows, our shell skips a line & returns nothing:
 
 ![](/pics/clr.png)
 
