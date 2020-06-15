@@ -30,7 +30,7 @@ nc -lvnp <port>
 
 2. Run it on victim's machine, the promp will look like this:
 
-![](../pics/vic.png)
+![](/pics/vic.png)
 
 3. The attacker's machine will get a connection & from here, there are 3 important features of this tool: **persistence**, **downloading files**, & **SQL file searching**
 
