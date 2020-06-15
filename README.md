@@ -42,9 +42,9 @@ NOTE: WINDOWS DEFAULTS THE SCHEDULED TASKS FEATURE TO ONLY EXECUTE TASKS IF THE 
 
 The keyword to use for scheduling a task is *schedule* or *persist*, after entering either, you will be given a few questions to answer in order to schedule the task:
 
-term.png
+![](/pics/term.png)
 
-term2.png
+![](/pics/term2.png)
 
 The questions are:
 
@@ -54,7 +54,7 @@ The questions are:
 
 Once the task is scheduled, you can confirm it is ready to execute via *SCHTASKS* or *SCHTASKS /Query*
 
-task.png
+![](/pics/task.png)
 
 The only reason ours says it couldn't start is because we already have our shell
 
@@ -66,7 +66,7 @@ The keywords to use are: *Download* or *download*
 
 After entering Download, you're given a prompt:
 
-term3.png
+![](/pics/term3.png)
 
 Since you have to enter the file path of the file you wish to download, it's recommended that you enter ls and pwd & search for the file & verify the filepath beforehand
 
@@ -75,13 +75,13 @@ You're also asked to enter a port to listen on to receive the file, before enter
 nc -lvnp <port> > <desired-file-name>
 ```
 
-term4.png
- 
+![](/pics/term4.png)
+
 After you enter the port you'll receive a connection & the file will be downloaded 
  
-listen.png
+![](/pics/listen.png)
 
-new.png
+![](/pics/new.png)
 
 ## SQL & DB Search Feature
 
@@ -89,15 +89,15 @@ This feature is fairly self explanatory, it searches for any files with the *.sq
 
 The keywords to use are: *sql* or *SQL*
 
-smple.png
- 
+![](/pics/smple.png) 
+
 ### NOTE: IF YOU ENTER A CMD INCORRECTLY OR A CMD THAT DOESN'T EXIST, THE ERROR WILL APPEAR IN THE VICTIM'S TERMINAL, EX:
 
 We enter clear which isn't a cmd in Windows, our shell skips a line & returns nothing:
 
-clr.png
+![](/pics/clr.png)
 
 ...but on the victim's machine:
 
-vic2.png
+![](/pics/vic2.png)
 
