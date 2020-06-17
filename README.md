@@ -125,10 +125,10 @@ I personally recommend using a site such as notabug.org if you can't use your ow
 
 1. After executing the dropper, we get this popup:
 
-![](/pics2/img1.png)
+![](/imgs2/img1.png)
 
 2. We can go into the scheduled tasks to confirm our reverse shell is running...
 
-![](/pics2/schedule.png)
+![](/imgs2/schedule.png)
 
 Boom! Our dropper grabs the new_winshell.exe file & schedules it to be executed!
