@@ -107,9 +107,15 @@ Change out the *url, payloadName, and dropperName* values to whatever suits your
 
 * The *url* is where the payload (in this case, the Pysock reverse shell) should be located
 
-* The *payloadName* is the name of the payloada (in this case, the Pysock reverse shell)
+* The *payloadName* is the name of the payload (in this case, the Pysock reverse shell)
 
 * The *dropperName* is the name of the dropper, this variable is used to locate the dropper & display a popup to persuade the user to delete the dropper after executing it. This is implemented in the *popup* function & it exists because I couldn't figure out how to make the dropper delete itself.
+
+Compile the dropper using Pyinstaller:
+
+```
+pyinstaller --clean -F <python-file-location>
+```
 
 I personally recommend using a site such as notabug.org if you can't use your own website to upload the reverse shell & host it:
 
