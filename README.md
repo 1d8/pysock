@@ -101,3 +101,34 @@ We enter *clear* which isn't a cmd in Windows, our shell skips a line & returns 
 
 ![](/pics/vic2.png)
 
+# Using the Dropper
+
+Change out the *url, payloadName, and dropperName* values to whatever suits your purpose
+
+* The *url* is where the payload (in this case, the Pysock reverse shell) should be located
+
+* The *payloadName* is the name of the payloada (in this case, the Pysock reverse shell)
+
+* The *dropperName* is the name of the dropper, this variable is used to locate the dropper & display a popup to persuade the user to delete the dropper after executing it. This is implemented in the *popup* function & it exists because I couldn't figure out how to make the dropper delete itself.
+
+I personally recommend using a site such as notabug.org if you can't use your own website to upload the reverse shell & host it:
+
+* Create a repository on notabug.org
+
+* Upload the reverse shell
+
+* Click the reverse shell & right-click raw & click copy link
+
+* Throw this link in the dropper.py file & compile it
+
+# Execution of Dropper:
+
+1. After executing the dropper, we get this popup:
+
+![](/pics2/img1.png)
+
+2. We can go into the scheduled tasks to confirm our reverse shell is running...
+
+![](/pics2/schedule.png)
+
+Boom! Our dropper grabs the new_winshell.exe file & schedules it to be executed!
