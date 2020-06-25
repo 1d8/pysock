@@ -13,7 +13,9 @@
 
 * Python 3
 
-# Before attempting to compile with Pyinstaller, ensure all the used modules are installed
+## Before attempting to compile with Pyinstaller, ensure all the used modules are installed
+
+**
 
 # PySocket Usage:
 
