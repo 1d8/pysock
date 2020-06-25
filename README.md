@@ -1,17 +1,19 @@
 # Pysock 
 ## "Reverse Shell" in Python 3 (For Educational Purposes)
-
-## Use the code.py for linux machines, use win_shell.py for Windows machines
-
 ## Used modules:
 
 * Socket
 * Subprocess
+* Requests
+* OS
+* Tkinter
+* Pywin32
 
 # Requirements
 
 * Python 3
-* Netcat
+
+# Before attempting to compile with Pyinstaller, ensure all the used modules are installed
 
 # PySocket Usage:
 
